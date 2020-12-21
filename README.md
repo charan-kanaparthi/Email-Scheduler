@@ -6,7 +6,8 @@ please change db credentials in config.json file
 
 run "npm start"
 
-Routes 
+
+#Routes 
 
 
 GET /emails: will return the list of emails in our system
@@ -23,9 +24,9 @@ sample raw request
 "scheduled_at":"2020-12-22 00:55"
 }
 
-GET /emails/[id]: will return the email  with the given id
+GET /emails/[id]: will return the email notification with the given id
 
-PUT /emails/[id]: will update the data for the email  with the given id
+PUT /emails/[id]: will update the data for the email notification with the given id
 
 sample put:
 {
@@ -35,4 +36,4 @@ sample put:
 "body": "schedule"
 }
 
-DELETE /emails/[id]: will delete the email  with the given id  ( soft delete  updating status)
+DELETE /emails/[id]: will delete the email notification with the given id  ( soft delete  updating status)
