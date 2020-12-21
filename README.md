@@ -1,10 +1,14 @@
-git clone repository
+### Installation
 
-run "npm install"
+Git clone repository and Install the dependencies and devDependencies and start the server.
 
-please change db credentials in config.json file 
+```sh
+$ npm install 
+$ npm start
+$ please change db credentials in config.json file 
+```
 
-run "npm start"
+
 
 
 #Routes 
