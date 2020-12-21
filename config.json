@@ -1,0 +1,12 @@
+﻿{
+    "database": {
+        "host": "localhost",
+        "port": 3306,
+        "user": "root",
+        "password": "Charan@47",
+        "database": "testdb"
+    },
+    "secret": "secret key",
+    "sendgrid":"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",
+    "sendgrid_from":"kvenkatcharan1@gmail.com"
+}
