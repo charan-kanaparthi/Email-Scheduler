@@ -11,12 +11,13 @@ $ please change db credentials in config.json file
 
 
 
-#Routes 
+### Routes 
 
-
+```sh
 GET /emails: will return the list of emails in our system
 GET /emails:?filter=unsent return the list of unsent emails in our system
 GET /emails:?filter=failed return the list of failed in our system
+```
 
 POST /emails: will create a new email in our system
 
